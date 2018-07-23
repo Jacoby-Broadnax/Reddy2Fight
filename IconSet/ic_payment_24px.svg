@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 25.902">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #095aa5;
+      }
+    </style>
+  </defs>
+  <path id="ic_payment_24px" class="cls-1" d="M30.8,4H5.2A3.194,3.194,0,0,0,2.016,7.238L2,26.664A3.208,3.208,0,0,0,5.2,29.9H30.8A3.208,3.208,0,0,0,34,26.664V7.238A3.208,3.208,0,0,0,30.8,4Zm0,22.664H5.2V16.951H30.8Zm0-16.189H5.2V7.238H30.8Z" transform="translate(-2 -4)"/>
+</svg>

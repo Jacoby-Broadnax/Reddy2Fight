@@ -1,0 +1,24 @@
+.header {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+   
+}
+
+.logo {
+    grid-column-start: 1;
+}
+
+.headerbase {
+   
+
+}
+
+.iconset {
+    grid-column-start: 7;
+    grid-row-start: 1;
+}
+
+.buttonrow {
+    grid-row-start:1 ;
+    display: inline-grid; grid-template-columns: auto auto auto 150 auto ; grid-column-start: 2
+}

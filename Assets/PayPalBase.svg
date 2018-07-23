@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 75">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-PaypalBase);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #095aa5;
+      }
+    </style>
+    <clipPath id="clip-PaypalBase">
+      <rect width="1920" height="75"/>
+    </clipPath>
+  </defs>
+  <g id="PaypalBase" class="cls-1">
+    <rect class="cls-2" width="1920" height="75"/>
+    <rect id="Rectangle_21" data-name="Rectangle 21" class="cls-2" width="1422" height="75" transform="translate(498)"/>
+    <rect id="Rectangle_22" data-name="Rectangle 22" class="cls-3" width="498" height="75"/>
+  </g>
+</svg>

@@ -1,0 +1,1706 @@
+.headerbase {
+    position: fixed;
+    top: -2;
+    z-index: 15;
+    left: 0;
+    width: 100%;
+    height: 109px;
+    ;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    background-image: url(Assets/HeaderBase.svg)
+}
+
+.logosource {
+
+    z-index: 21;
+    width: 276.36px;
+}
+
+input {
+    z-index: 75;
+}
+
+
+.headerbtn {
+    position: fixed;
+    font-family: sans-serif;
+    font-size: 18;
+    font-weight: 500;
+    color: #095AA5;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    padding-left: 4px;
+    padding-right: 4px;
+    z-index: 21;
+    margin: 0px;
+    transition: 0.2s ease;
+    top: 0px;
+
+}
+
+.headerbtn:hover {
+    background-color: #EEEEEE;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    padding-left: 4px;
+    padding-right: 4px;
+
+
+}
+
+.headerbtn:active {
+    background-color: #F5F8FF;
+
+}
+
+.subheaderimg {
+    position: absolute;
+    top: 100px;
+    left: 0%;
+    width: 100%;
+    height: 459;
+    background-image: url(Images/SubHeaderBase.jpg);
+    transition: 1s ease;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.socialicon1 {
+    position: absolute;
+    top: 466px;
+    left: 1285px;
+    z-index: 10;
+    display: inline-block;
+    transition: 1s ease;
+}
+
+.socialicon2 {
+    position: absolute;
+    top: 472px;
+    z-index: 10;
+    left: 1342px;
+    transition: 1s ease;
+}
+
+.socialicon3 {
+    position: absolute;
+    top: 472px;
+    z-index: 10;
+    left: 1394px;
+    transition: 1s ease;
+}
+
+
+
+/*------Paypal Link-------*/
+
+.paypalmenu {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    display: grid;
+}
+
+.paypalbase {
+    background: white;
+    position: absolute;
+    width: 100%;
+    height: 328px;
+    ;
+    z-index: -1;
+    left: 0%;
+    top: 104px;
+
+    vertical-align: middle;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.28);
+}
+
+.paypallogo {
+    position: absolute;
+    top: 132px;
+    z-index: 8;
+    width: 83px;
+    left: 83.4%;
+    pointer-events: none;
+}
+
+.donationstxt {
+    position: absolute;
+    z-index: 8;
+    top: 533px;
+    font-size: 18px;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    left: 53px;
+    color: white;
+}
+
+.verticalline {
+    position: absolute;
+    left: 16.0%;
+    ;
+    top: 533px;
+    z-index: 8;
+}
+
+.paypalpricingbase {
+    background: #095AA5;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.19);
+    z-index: 8;
+    position: fixed;
+    top: 33px;
+    width: 137px;
+    height: 40.3;
+    left: 79%;
+    max-height: 60;
+    border-radius: 11px;
+    z-index: 15;
+}
+
+
+.donationsbtntxt {
+    position: absolute;
+    font-family: roboto;
+    font-size: 18px;
+    top: 257px;
+    left: 601;
+    font-weight: 400;
+    color: #095AA5;
+    padding-left: 40;
+    padding-right: 40;
+    padding-bottom: 10;
+    padding-top: 10;
+    z-index: 8;
+    border: solid;
+    border-radius: 5px;
+    border-width: 2.4px;
+
+}
+
+.donationsbtntxt:hover {
+    background-color: #095AA5;
+    color: white;
+}
+
+.donationsbtntxt:active {
+    background-color: #0980EF
+}
+
+/*------Info Content-------*/
+
+.infoicon {
+    position: absolute;
+    top: 601px;
+    left: 12%;
+    pointer-events: none;
+}
+
+.infoicontxt {
+    position: absolute;
+    top: 577px;
+    left: 14.4%;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-size: 15;
+    color: #095AA5;
+}
+
+.infoiconsubtxt {
+    position: absolute;
+    top: 602px;
+    width: 252px;
+    font-size: 15;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    color: #A3A3A3;
+    left: 14.4%;
+    line-height: 161%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------EndBase-------*/
+
+.endbase {
+    position: absolute;
+    width: 50px;
+    height: 12px;
+    top: 237%;
+}
+
+.footertxt {
+    position: absolute;
+    top: 229%;
+    ;
+    font-size: 13;
+    font-weight: 400;
+    font-family: roboto;
+    color: #A3A3A3;
+    left: 238
+}
+
+
+
+
+
+
+
+/*------Responsive Large Desktop-------*/
+
+.Liam {
+    position: fixed;
+    left: 0%;
+    width: 644px;
+    top: 83px;
+
+    border-radius: 0px 0px 11px 0px;
+    height: 100%;
+    ;
+    background-image: url(Images/Liam%20Reddy.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+
+.inspirationheader {
+    position: absolute;
+    top: 124;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    color: #095AA5;
+    left: 701px;
+    font-size: 23;
+}
+
+
+
+
+
+.inspirationp {
+    position: absolute;
+    font-family: roboto, sans-serif;
+    left: 702px;
+    top: 161px;
+    width: 49%;
+    font-size: 16px;
+    color: #002140;
+    line-height: 33px;
+
+}
+
+inspirationp {
+    text-indent: 50%;
+}
+
+.policyheader {
+    position: absolute;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    top: 204%;
+    color: #095AA5;
+    left: 95px;
+
+}
+
+.liamimg {
+    position: absolute;
+    top: 1084px;
+    left: 61px;
+    border-radius: 10px;
+    background-image: url(Images/Liam%20Reddy%20Landscape%20Small.jpg);
+    width: 300px;
+    height: 315px;
+    background-repeat: no-repeat;
+}
+
+.liamheader {
+    position: absolute;
+    font-family: roboto, sans-serif;
+    top: 1068px;
+    font-size: 20px;
+    left: 410px;
+    font-weight: 400;
+    color: #095AA5;
+}
+
+.liamteaser {
+    position: absolute;
+    font-family: roboto, sans-serif;
+    top: 1066px;
+    color: #707070;
+    line-height: 33px;
+    left: 410px;
+    width: 64%;
+
+    ;
+}
+
+.horizontaldiv {
+    width: 1500px;
+    height: 1.5px;
+    background-color: black;
+    position: absolute;
+    top: 797px;
+    opacity: 0.1;
+}
+
+
+
+.readmorebtn {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 16;
+    font-weight: 400;
+    color: #095AA5;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 29px;
+    padding-right: 29px;
+    z-index: 0;
+    margin: 0px;
+    transition: 0.2s ease;
+    top: 1428px;
+    left: 1272px;
+    border-radius: 7px;
+
+
+}
+
+.readmorebtn:active {
+    background-color: #F5F8FF;
+}
+
+.readmorebtn:hover {
+    background-color: #F1F1F1;
+}
+
+.missionhead {
+    position: absolute;
+    font-family: roboto, sans-serif;
+    color: white;
+    font-size: 27px;
+    font-weight: 400;
+    top: 152px;
+    left: 59;
+    ;
+}
+
+.missionstate {
+    position: absolute;
+    font-weight: 400;
+    font-family: roboto, sans-serif;
+    color: white;
+    font-size: 23px;
+    width: 564;
+    top: 196px;
+    left: 58px;
+    line-height: 36px
+}
+
+.inactionablebase {
+    position: absolute;
+    width: 100%;
+    height: 216px;
+    background-color: white;
+    top: 544px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.28);
+    left: 0px;
+    z-index: -1;
+    transition: 1s ease;
+}
+
+.donationbtntxt {
+    position: fixed;
+    font-family: roboto;
+    color: #095AA5;
+    font-size: 18px;
+    z-index: 15;
+    left: 82%;
+    top: 20px;
+    font-weight: 400;
+    padding-right: 42px;
+    padding-left: 42px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    background-color: white;
+    border-radius: 9px;
+    transition: 0.3s ease;
+    border: solid;
+    border-color: #095AA5;
+    border-width: 2.4px;
+}
+
+.donationbtntxt:hover {
+    background-color: #095AA5;
+    color: white
+}
+
+.donationbtntxt:active {
+    background-color: #0980EF;
+    border-color: #0980EF;
+}
+
+.closebtn {
+    position: fixed;
+    background-image: url(IconSet/ic_close_24px.svg);
+    width: 21px;
+    height: 21px;
+    z-index: 15;
+    left: 93%;
+    top: 44px;
+    transition: 1s ease;
+}
+
+
+.menulist {
+    position: fixed;
+    font-family: sans-serif;
+    font-size: 16;
+    font-weight: 400;
+    color: #707070;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 4px;
+    padding-right: 4px;
+    z-index: 0;
+    margin: 0px;
+    transition: 0.2s ease;
+    left: 44%;
+
+    ;
+
+}
+
+.menulist:hover {
+    background-color: #EEEEEE;
+    color: #095AA5;
+}
+
+.menulist:active {
+    background-color: white;
+}
+
+.logosource {
+    position: absolute;
+    z-index: 15;
+    left: 102px;
+    top: 2px
+}
+
+.ourgoalheader {
+    position: absolute;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    top: 791px;
+    left: 408px;
+    color: #095AA5;
+}
+
+.ourgoalimg {
+    position: absolute;
+    top: 804;
+    width: 305px;
+    border-radius: 7px;
+    left: 59px;
+    background-image: url(Images/OurGoalImg.jpg);
+    background-repeat: no-repeat;
+    height: 188px;
+}
+
+.goalp {
+    position: absolute;
+    font-family: roboto, sans-serif;
+    color: #707070;
+    line-height: 33px;
+    width: 64%;
+    left: 408px;
+    top: 824;
+
+}
+
+.linedivider {
+    position: absolute;
+    top: 1037;
+    width: 100%;
+    height: 1px;
+    background-color: #707070;
+    left: 0px;
+    opacity: 0.23;
+    z-index: 0;
+}
+
+
+/*------Info Text-------*/
+
+.infoicon1 {
+    position: absolute;
+    left: 12%;
+    top: 601px;
+}
+
+.infoicon2 {
+    position: absolute;
+    left: 36%;
+    top: 601px;
+}
+
+.infoicon3 {
+    position: absolute;
+    left: 60%;
+    top: 601px;
+}
+
+
+.infoicontxt1 {
+    position: absolute;
+    top: 577px;
+    left: 14.4%;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-size: 15;
+    color: #095AA5;
+}
+
+.infoicontxt2 {
+    position: absolute;
+    top: 577px;
+    left: 38.5%;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-size: 15;
+    color: #095AA5;
+}
+
+.infoicontxt3 {
+    position: absolute;
+    top: 577px;
+    left: 62.5%;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-size: 15;
+    color: #095AA5;
+}
+
+.infoiconsubtxt1 {
+    position: absolute;
+    top: 602px;
+    width: 252px;
+    font-size: 15;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    color: #A3A3A3;
+    left: 14.4%;
+    line-height: 161%;
+}
+
+.infoiconsubtxt2 {
+    position: absolute;
+    top: 602px;
+    width: 252px;
+    font-size: 15;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    color: #A3A3A3;
+    left: 38.5%;
+    line-height: 161%;
+}
+
+.infoiconsubtxt3 {
+    position: absolute;
+    top: 602px;
+    width: 252px;
+    font-size: 15;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    color: #A3A3A3;
+    left: 62.5%;
+    line-height: 161%;
+    width: 23%;
+
+}
+
+.donateimg {
+    position: fixed;
+    left: 0px;
+    width: 538px;
+}
+
+.donateheader {
+    position: absolute;
+    font-family: roboto, sans-serif;
+    left: 600px;
+    top: 115px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #095AA5;
+}
+
+.query1 {
+    position: absolute;
+    font-family: roboto, sans-serif;
+    top: 184px;
+    font-size: 19px;
+    font-weight: 400;
+    left: 601px;
+    color: #00274B;
+}
+
+.query2 {
+    position: absolute;
+    font-family: roboto, sans-serif;
+    top: 333px;
+    font-size: 19px;
+    font-weight: 400;
+    left: 601px;
+    color: #00274B;
+}
+
+.querynote2 {
+    position: absolute;
+    top: 368px;
+    color: #707070;
+    font-family: roboto, sans-serif;
+    left: 601px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.db1 {
+    left: 731px;
+}
+
+.db2 {
+    left: 860px;
+}
+
+.db3 {
+    left: 1000px;
+}
+
+.db4 {
+    left: 1140px
+}
+
+.db5 {
+    left: 1280px
+}
+
+.querynote1 {
+    position: absolute;
+    top: 223px;
+    color: #707070;
+    font-family: roboto, sans-serif;
+    left: 601px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/*------Responsive UI Phone-------*/
+
+@media only screen and (max-width:1481px) {
+    .header {
+        left: -9;
+        grid-template-columns: 188 97 140 140 140 140 140 140;
+    }
+    .donationbtntxt {
+
+        left: 1250px
+    }
+
+    .socialicon1 {
+        left: 88%;
+    }
+
+    .socialicon2 {
+        left: 91.8%;
+    }
+
+    .socialicon3 {
+        left: 95.2%;
+    }
+
+    .subheaderimg {
+        background-image: url(Images/SubHeaderBase%20Medium.png );
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
+}
+
+
+@media only screen and (max-width:1419px) {
+    .donationbtntxt {
+        position: absolute;
+        ;
+        left: 75%;
+        top: 461px;
+        z-index: 9;
+    }
+
+    .inspirationp {
+        width: 40%;
+    }
+
+    .readmorebtn {
+        left: 84%;
+        top: 1488;
+    }
+
+    .footertxt {
+        left: 7%
+    }
+
+    .infoiconsubtxt3 {
+        position: absolute;
+        width: 29%;
+    }
+}
+
+@media only screen and (max-width:1250px) {
+    .headerbtn {
+        display: none;
+    }
+
+    .hamburgermenu {
+        background-image: url(IconSet/ic_menu_24px.svg);
+        position: fixed;
+        z-index: 15;
+        left: 94%;
+        width: 29.17px;
+        height: 19.45px;
+        top: 43px;
+        transition: 1s ease;
+
+    }
+
+    .donationbtntxt {
+        top: 21px;
+        position: fixed;
+        z-index: 15;
+        left: 79%;
+    }
+
+    .liam {
+        width: 50%;
+    }
+
+    .inspirationheader {
+        left: 54%;
+
+    }
+
+    .inspirationp {
+        left: 54%;
+
+    }
+
+    .donateimg {
+        width: 44%;
+    }
+
+
+}
+
+@media only screen and (max-width:1205px) {
+    .inactionablebase {
+
+        height: 233px;
+    }
+
+    .socialicon1 {
+        left: 86%;
+    }
+
+    .socialicon2 {
+        left: 90.8%;
+    }
+
+    .subheaderimg {
+        background-image: url(Images/SubHeaderBase%20Small.png);
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1108px) {
+    .liamteaser {
+        width: 56%;
+    }
+
+    .goalp {
+        width: 56%;
+    }
+
+
+
+    .infoiconsubtxt1 {
+        width: 20%;
+    }
+
+    .infoiconsubtxt2 {
+        width: 19%;
+    }
+
+    .infoicon1 {
+        left: 11%;
+    }
+
+    .infoicon2 {
+        left: 35%;
+    }
+
+    .infoicon3 {
+        left: 59%;
+    }
+
+    .hamburgermenu {
+        left: 95%;
+    }
+
+    .readmorebtn {
+        top: 1563px;
+        left: 81%;
+    }
+
+}
+
+@media only screen and (max-width:1000px) {
+
+    .closebtn {
+        top: 32px;
+        left: 91%;
+    }
+
+    .px3 {
+        display: none;
+    }
+
+    .readmorebtn {
+        top: 1649px;
+        left: 78%;
+    }
+
+    .ourgoalheader {
+        left: 353px;
+        top: 816;
+    }
+    .goalp {
+        left: 353px;
+        top: 847px;
+        width: 50%;
+    }
+    .inactionablebase {
+        top: 561;
+        height: 248px;
+    }
+
+    .ourgoalimg {
+        top: 831;
+        width: 261;
+    }
+    .linedivider {
+        top: 1134;
+    }
+
+    .liamimg {
+        top: 1161px;
+        width: 261px;
+    }
+
+    .socialicon1 {
+        left: 83%;
+    }
+
+    .socialicon2 {
+        left: 89%;
+    }
+
+    .socialicon3 {
+        left: 94.6%;
+    }
+
+    .donationbtntxt {
+        left: 73%
+    }
+
+    .hamburgermenu {
+        left: 92%;
+        ;
+    }
+
+    .liamheader {
+        left: 352px;
+        top: 1152px;
+    }
+
+    .headerbase {
+        height: 85px;
+    }
+
+    .logosource {
+        width: 198px
+    }
+
+    .donationbtntxt {
+        padding-right: 25px;
+        padding-left: 25;
+        padding-top: 5;
+        padding-bottom: 5;
+        top: 12px;
+        left: 76%;
+    }
+
+    .hamburgermenu {
+        width: 25px;
+        height: 17px;
+        top: 36px;
+    }
+
+    .Liam {
+        width: 102%;
+        ;
+        height: 360px;
+        background-image: url(Images/Liam%20Reddy%20Landscape.jpg);
+        position: absolute;
+
+    }
+
+
+
+    .inspirationheader {
+        top: 450px;
+        left: 65px;
+    }
+
+    .inspirationp {
+        left: 65;
+        top: 481;
+        width: 88%;
+    }
+
+    .liamteaser {
+        left: 353;
+        top: 1150px;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width:830px) {
+
+    .inspirationp {
+        left: 52px
+    }
+
+    .closebtn {
+        left: 92%;
+    }
+
+    .readmorebtn {
+        top: 2119px;
+        left: 72%;
+    }
+
+    .footertxt {
+        top: 123px;
+    }
+
+    .infoicon1 {
+        left: 83px;
+        top: 518px;
+    }
+
+    .infoicontxt1 {
+        left: 117px;
+        top: 495px;
+    }
+
+    .infoiconsubtxt1 {
+        width: 76%;
+        left: 117px;
+        top: 522px;
+    }
+
+
+    .infoicon2 {
+        top: 636px;
+        left: 83px;
+    }
+    .infoicontxt2 {
+        top: 613;
+        left: 117px;
+    }
+    .infoiconsubtxt2 {
+        top: 641px;
+        left: 117px;
+        width: 76%;
+    }
+
+
+    .infoicon3 {
+        top: 741px;
+        left: 83px;
+    }
+    .infoicontxt3 {
+        left: 117px;
+        top: 718px;
+    }
+    .infoiconsubtxt3 {
+        left: 117px;
+        top: 744px;
+        width: 75%;
+    }
+
+    .inactionablebase {
+        height: 55px;
+        top: 442px;
+    }
+
+    .ourgoalimg {
+        top: 896;
+        left: 34%;
+        width: 294px;
+    }
+
+    .subheaderimg {
+        background-image: url(Images/SubHeaderBase%20Extra%20Small.png);
+        top: 81;
+    }
+
+    .socialicon1 {
+        top: 447;
+        left: 42%;
+    }
+    .socialicon2 {
+        top: 452;
+        left: 49%;
+    }
+    .socialicon3 {
+        top: 451px;
+        left: 55.5%;
+    }
+
+    .missionhead {
+        font-size: 21;
+        top: 86px;
+    }
+
+    .missionstate {
+        font-size: 19;
+        line-height: 1.5;
+        top: 119px;
+    }
+
+    .linedivider {
+        top: 867;
+    }
+
+    .ourgoalheader {
+        top: 1064;
+        left: 84px;
+    }
+
+    .goalp {
+        top: 1085;
+        left: 84px;
+        width: 80%;
+    }
+
+    .topdiv {
+        top: 1323;
+    }
+
+    .liamimg {
+        top: 1349;
+        left: 36%;
+    }
+
+    .liamheader {
+        top: 1630px;
+        left: 86;
+    }
+
+    .liamteaser {
+        left: 86;
+        top: 1632;
+        width: 80%;
+    }
+
+    .endbase {
+        top: 2300;
+    }
+
+    .footertxt {
+        top: 2204;
+        left: 84;
+        width: 80%;
+    }
+
+    .px3 {
+        display: none
+    }
+
+    .hamburgermenu {
+        left: 93%;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .donationbtntxt {
+        left: 70%;
+    }
+
+    .hamburgermenu {
+        left: 90%;
+    }
+
+    .closebtn {
+        left: 89%;
+    }
+
+    .Liam {
+        background-image: url(Images/Liam%20Reddy%20Landscape%20Medium.jpg)
+    }
+
+    .logosource {
+        left: 27px;
+    }
+
+    .goalp {
+        width: 74%;
+    }
+
+    .ourgoalimg {
+        left: 30%;
+    }
+
+    .liamimg {
+        top: 1373px;
+    }
+
+    .liamheader {
+        top: 1668px;
+    }
+
+    .liamteaser {
+        top: 1657px;
+    }
+
+    .readmorebtn {
+        top: 2171px
+    }
+
+    .socialicon1 {
+        left: 40%;
+    }
+
+    .socialicon3 {
+        left: 57%;
+    }
+
+    .footertxt {
+        top: 2296px
+    }
+
+    .endbase {
+        top: 2410px
+    }
+}
+
+@media only screen and (max-width:630px) {
+    .readmorebtn {
+        top: 2282px;
+        left: 68%;
+    }
+
+
+
+    .liam {
+        top: 57px;
+    }
+
+    .inspirationp {
+        top: 461px;
+        left: 41px;
+        ;
+    }
+
+    .closebtn {
+        width: 16px;
+        height: 16px;
+        top: 27px;
+    }
+
+    .menulist {
+        left: 39%;
+    }
+
+    .liamimg {
+        left: 28%;
+        top: 1423px;
+    }
+
+    .liamheader {
+        top: 1727px;
+    }
+
+    .liamteaser {
+        top: 1723px;
+        width: 70%;
+    }
+
+    .readmorebtn {
+        top: 2342;
+        left: 60%;
+    }
+
+    .endbase {
+        top: 2496
+    }
+
+    .footertxt {
+        top: 2431;
+        width: 72%;
+    }
+
+    .missionstate {
+        width: 81%;
+    }
+
+    .donationbtntxt {
+        top: 440;
+        position: absolute;
+        left: 71%;
+        z-index: 11
+    }
+
+    .headerbase {
+        background-image: url(Assets/HeaderBaseMobile.svg);
+        height: 70px;
+        width: 101%;
+    }
+
+    .subheaderimg {
+        width: 100%;
+        top: 69px
+    }
+
+    .inspirationheader {
+        top: 413px;
+        left: 41px;
+    }
+
+    .inspirationp {
+        top: 420px;
+    }
+
+    .logosource {
+        width: 167px;
+    }
+
+    .hamburgermenu {
+        top: 26px
+    }
+
+    .inactionablebase {
+        top: 428px;
+    }
+
+    .socialicon1 {
+        top: 431px
+    }
+
+    .socialicon2 {
+        top: 437px;
+    }
+
+    .socialicon3 {
+        top: 436px;
+    }
+
+    .donationbtntxt {
+        top: 426px;
+    }
+}
+
+@media only screen and (max-width:615px) {
+    .readmorebtn {
+        top: 2376px
+    }
+}
+
+@media only screen and (max-width:540px) {
+
+    .menulist {
+        left: 37%;
+        font-size:
+    }
+
+    .infoicon1 {
+        left: 40px;
+    }
+    .infoicon2 {
+        left: 40px;
+    }
+    .infoicon3 {
+        left: 40px;
+    }
+
+    .infoicontxt1 {
+        left: 77px;
+    }
+    .infoicontxt2 {
+        left: 77px;
+    }
+    .infoicontxt3 {
+        left: 77px;
+    }
+
+    .infoiconsubtxt1 {
+        left: 77px;
+    }
+    .infoiconsubtxt2 {
+        left: 77px;
+    }
+    .infoiconsubtxt3 {
+        left: 77px;
+        width: 74%;
+    }
+
+    .linedivider {
+        top: 928px
+    }
+
+    .ourgoalimg {
+        top: 967px;
+        left: 23%;
+    }
+
+    .ourgoalheader {
+        top: 1161;
+        left: 55px;
+    }
+
+    .goalp {
+        top: 1195px;
+        left: 55px;
+        width: 79%;
+    }
+
+    .liamimg {
+        top: 1562px;
+        left: 23%;
+    }
+
+    .endbase {
+        top: 2781px
+    }
+
+    .footertxt {
+        top: 2643;
+        width: 70%;
+        left: 55px;
+        width: 79%;
+    }
+
+    .liamheader {
+        left: 55px;
+        top: 1870
+    }
+
+    .liamteaser {
+        left: 55px;
+        top: 1870px;
+        width: 79%;
+    }
+
+    .readmorebtn {
+        top: 2541px;
+    }
+
+    .socialicon1 {
+        left: 26px;
+    }
+
+    .socialicon2 {
+        left: 78px;
+    }
+
+    .socialicon3 {
+        left: 126px;
+    }
+}
+
+@media only screen and (max-width:456px) {
+
+    .closebtn {
+        left: 87.3%;
+    }
+
+    .hamburgermenu {
+        width: 22px;
+        height: 15px;
+    }
+    .missionhead {
+        font-size: 17px;
+        left: 37px
+    }
+
+    .missionstate {
+        font-size: 15px;
+        left: 37px;
+    }
+
+    .inspirationheader {
+        left: 38px;
+        top: 350px;
+        font-size: 19
+    }
+
+    .Liam {
+        height: 300px;
+        background-image: url(Images/Liam%20Reddy%20Landscape%20Small.jpg)
+    }
+
+    .inspirationp {
+        top: 353px;
+        left: 39px;
+    }
+
+    .subheaderimg {
+        height: 278px;
+        background-image: url(Images/SubHeaderBase%20Extra%20Small.jpg)
+    }
+
+    .inactionablebase {
+        top: 347px;
+        height: 51px
+    }
+
+    .socialicon1 {
+        width: 47px;
+        top: 350px;
+    }
+
+    .socialicon2 {
+        width: 35px;
+        top: 355px;
+    }
+
+    .socialicon3 {
+        width: 35px;
+        top: 355px;
+    }
+
+    .donationbtntxt {
+        top: 342px;
+        left: 68%
+    }
+
+
+
+    .infoicon1 {
+        top: 420px;
+    }
+
+    .infoicontxt1 {
+        top: 398px;
+    }
+
+    .infoiconsubtxt1 {
+        top: 425px;
+        width: 68%;
+    }
+
+    .infoicon2 {
+        top: 532px;
+    }
+
+    .infoicontxt2 {
+        top: 511px;
+    }
+
+    .infoiconsubtxt2 {
+        top: 544px;
+    }
+
+    .infoicon3 {
+        top: 651px;
+    }
+
+    .infoicontxt3 {
+        top: 630px
+    }
+
+    .infoiconsubtxt3 {
+        top: 659px;
+    }
+
+    .linedivider {
+        display: none;
+    }
+
+    .ourgoalimg {
+        width: 100%;
+        left: 0px;
+        border-radius: 0px;
+        top: 857px;
+        background-image: url(Images/OurGoalImg.jpg);
+        height: 247px;
+        background-repeat: no-repeat;
+    }
+
+    .ourgoalheader {
+        top: 1104px;
+        left: 51px;
+    }
+
+    .goalp {
+        top: 1142px;
+        left: 51px;
+        width: 78%;
+    }
+
+    .backtotop {
+        position: absolute;
+        top: 2721px;
+        color: #095AA5;
+        left: 13%;
+        font-size: 14px;
+        font-family: roboto, sans-serif;
+        font-weight: 400;
+        padding-right: 30%;
+        padding-left: 30%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .backtotop:active {
+        background-color: #F5F8FF;
+    }
+
+    .readmorebtn {
+        top: 2576px;
+        left: 59%;
+    }
+
+    .liamimg {
+        width: 100%;
+        left: 0px;
+        border-radius: 0;
+        top: 1532px;
+    }
+}
+
+@media only screen and (max-width:410px) {
+    .endbase {
+        top: 2955px;
+    }
+
+    .backtotop {
+        top: 2868px;
+        left: 11%;
+    }
+
+    .donationbtntxt {
+        left: 63%;
+    }
+
+    .hamburgermenu {
+        left: 88%;
+    }
+
+    .footertxt {
+        top: 2794px;
+    }
+
+    .readmorebtn {
+        top: 2653px;
+        left: 36%;
+    }
+
+}
+
+@media only screen and (max-width:397px) {
+    .readmorebtn {
+        top: 2691px
+    }
+
+    .menulist {
+        left: 32%;
+    }
+}
+
+@media only screen and (max-width:363px) {
+    .infoicon3 {
+        top: 676px;
+    }
+
+    .infoicontxt3 {
+        top: 654px;
+    }
+
+    .infoiconsubtxt3 {
+        top: 680px;
+    }
+
+    .ourgoalimg {
+        top: 894
+    }
+
+    .ourgoalheader {
+        top: 1150px;
+    }
+
+    .goalp {
+        top: 1178px;
+    }
+
+    .liamimg {
+        top: 1645px;
+    }
+
+    .liamheader {
+        top: 1961px;
+    }
+
+    .liamteaser {
+        top: 1953px;
+    }
+
+    .endbase {
+        top: 3038px
+    }
+
+    .backtotop {
+        top: 3000px;
+    }
+
+    .footertxt {
+        top: 2939px;
+    }
+
+    .readmorebtn {
+        top: 2792px;
+    }
+}
+
+detail {
+    position: absolute;z-index: 250
+}

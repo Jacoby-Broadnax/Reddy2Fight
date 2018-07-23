@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 38 38">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Close_Hover);
+      }
+
+      .cls-2 {
+        fill: #eee;
+      }
+
+      .cls-3 {
+        fill: #095aa5;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-Close_Hover">
+      <rect width="38" height="38"/>
+    </clipPath>
+  </defs>
+  <g id="Close_Hover" data-name="Close Hover" class="cls-1">
+    <rect class="cls-4" width="38" height="38"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-2" cx="19" cy="19" r="19"/>
+    <path id="ic_close_24px" class="cls-3" d="M18.374,6.347,17.027,5l-5.34,5.34L6.347,5,5,6.347l5.34,5.34L5,17.027l1.347,1.347,5.34-5.34,5.34,5.34,1.347-1.347-5.34-5.34Z" transform="translate(7 7)"/>
+  </g>
+</svg>
